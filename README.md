@@ -1,5 +1,7 @@
 # 中译英报告交付工作台（l10n-workbench）
 
+> 仓库：https://github.com/coconut-image/l10n-workbench（private；无访问权限请向维护者索取交付 zip）
+
 一套把「中文工程报告 → 可直接交付的英文 docx」做成**AI 一遍过 + 机器全量兜底 + 人只花极小预算签发**的完整体系：1 本总纲手册 + 7 个子 skill + 7 个小工具 + 1 份签认质量标准（rubric）。人只出现在 **7 个拍板点**，其余全部由 skill 路由、工具执行、资产沉淀。
 
 > 给会用 AI 的翻译/技术文档/咨询交付人员。设计理由与单 skill 方案的对比论证见 `docs/为什么这样设计_v1.md`（读它就懂这套东西为什么长这样）。
@@ -18,7 +20,7 @@
 ## 安装（Claude Code）
 
 ```bash
-git clone <本仓库地址> /tmp/l10n-workbench     # 或解压交付 zip
+git clone https://github.com/coconut-image/l10n-workbench.git /tmp/l10n-workbench   # 或解压交付 zip
 # skills 全部安装（全局）：
 cp -r /tmp/l10n-workbench/skills/l10n-* ~/.claude/skills/
 # 或只装到某个项目：cp -r /tmp/l10n-workbench/skills/l10n-* <项目>/.claude/skills/
