@@ -1,6 +1,6 @@
 # 中译英报告交付工作台（l10n-workbench）
 
-> 仓库：https://github.com/coconut-image/l10n-workbench（private；无访问权限请向维护者索取交付 zip）
+> 仓库：https://github.com/coconut-image/l10n-workbench（public，直接 clone 即用）
 
 一套把「中文工程报告 → 可直接交付的英文 docx」做成**AI 一遍过 + 机器全量兜底 + 人只花极小预算签发**的完整体系：1 本总纲手册 + 7 个子 skill + 7 个小工具 + 1 份签认质量标准（rubric）。人只出现在 **7 个拍板点**，其余全部由 skill 路由、工具执行、资产沉淀。
 
