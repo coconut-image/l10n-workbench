@@ -1,0 +1,33 @@
+{
+  "rubric_version": "v1", "reviewer": "reviewer-A（已校准）", "doc": "anchor-set",
+  "segments": [
+    {"idx": 3,  "zh": "漏損定位採用夜間最小流量法，輔以相關性分析。",
+     "en": "Leak localisation adopts the minimum night flow method, supplemented by correlation analysis.",
+     "scores": {"F": 4, "L": 4, "T": 4, "S": 3}, "errors": []},
+    {"idx": 7,  "zh": "數據缺失段已按慣例剔除，不參與率定。",
+     "en": "Segments with missing data were excluded by convention and did not participate in calibration.",
+     "scores": {"F": 3, "L": 3, "T": 3, "S": 3}, "errors": []},
+    {"idx": 15, "zh": "報得準不準，直接影響後續定位計算。",
+     "en": "Whether the alarms are reported accurately directly affects the subsequent localisation computation.",
+     "scores": {"F": 3, "L": 3, "T": 3, "S": 3}, "errors": []},
+    {"idx": 22, "zh": "可用記錄 26 條，其中 4 條為人工補錄。",
+     "en": "There are 26 usable records, of which 4 are manually backfilled entries.",
+     "scores": {"F": 3, "L": 3, "T": 3, "S": 3},
+     "errors": [{"severity": "major", "type": "术语不贴切", "span": "backfilled", "note": "应为 manually supplemented"}]},
+    {"idx": 29, "zh": "模型率定通過不代表輸出模型持續準確。",
+     "en": "Passing model calibration means the exported model stays accurate.",
+     "scores": {"F": 1, "L": 3, "T": 3, "S": 3},
+     "errors": [{"severity": "critical", "type": "语义反转", "span": "means", "note": "原文为「不代表」"}]},
+    {"idx": 35, "zh": "模型定位點共 5 處，其中 2 處已現場核實。",
+     "en": "There are 5 model localisation points, of which 2 have been verified on site.",
+     "scores": {"F": 3, "L": 3, "T": 3, "S": 3}, "errors": []},
+    {"idx": 39, "zh": "驗證結論表明模型精度滿足工程應用要求。",
+     "en": "The verification conclusion indicates that the model accuracy meets engineering application requirements.",
+     "scores": {"F": 3, "L": 3, "T": 2, "S": 3},
+     "errors": [{"severity": "minor", "type": "术语变体"}]},
+    {"idx": 42, "zh": "建議優先採用方案三的率定參數。",
+     "en": "Option C must be adopted for calibration parameters.",
+     "scores": {"F": 2, "L": 3, "T": 3, "S": 3},
+     "errors": [{"severity": "critical", "type": "建议→要求", "span": "must be adopted"}]}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "decisions": [
+    {"kind": "term", "term_zh": "人工補錄", "chosen": "manually supplemented records",
+     "rejected": "manually backfilled entries", "reason": "supplement 与往期报告一致，backfilled 有歧义",
+     "date": "2026-11-21"},
+    {"kind": "style", "chosen": "结论与建议章用 we recommend 主动语态，正文保持被动语态",
+     "reason": "摘要/结论口吻与正文一致性问题在 v1 出现 2 次", "date": "2026-11-21"},
+    {"kind": "term", "term_zh": "數據完整率", "chosen": "data completeness rate",
+     "rejected": "data integrity rate", "reason": "integrity 在数据安全语境有歧义",
+     "date": "2026-11-21"}
+  ]
+}
